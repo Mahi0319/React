@@ -7,10 +7,10 @@ function Hero(){
   <p>Frontend Developer | Building modern web experiences with HTML, CSS, JavaScript, and React.</p>
 </div>
 <div className="Hero1">
-  <a className="btn" href="#About">About Me</a>
-  <a className="btn1" href="#Skills">Skills</a>
-  <a className="btn2" href="#Projects">Projects</a>
-  <a className="btn3" href="#Contact">Contact Me</a>
+  <a href="#about" className="btn">About Me</a>
+  <a href="#skills" className="btn1">Skills</a>
+  <a href="#projects" className="btn2">Projects</a>
+  <a href="#contact" className="btn3">Contact Me</a>
 </div>
          </>
     )
