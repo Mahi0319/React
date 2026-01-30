@@ -13,11 +13,6 @@ function About() {
             My goal is to grow as a full-stack developer and contribute to meaningful products while continuously learning new technologies.
             </p>
           </div>
-
-          <div className="about-image">
-            <h2>My image </h2>
-            <img src="MYIMAGE.jpg" alt="Mahesh" height= {100} width={100} align="center" />
-          </div>
         </div>
       </section>
     </>

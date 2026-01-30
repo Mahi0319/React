@@ -17,7 +17,6 @@ function Contact() {
         <a
           href="https://github.com/Mahi0319"
           target="_blank"
-          rel="noopener noreferrer"
           className="contact-btn"
         >
           GitHub
