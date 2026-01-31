@@ -1,5 +1,5 @@
 import React from "react";
-import './Hero.css'; // Make sure you have a CSS file
+import './Hero.css';
 
 function Hero() {
   return (
@@ -7,7 +7,7 @@ function Hero() {
       <div className="Hero">
         <h1>Hi, I'm Mahesh</h1>
         <p>
-          Frontend Developer | Building modern web experiences with HTML, CSS, JavaScript, and React.
+          Frontend Developer :: Building modern web experiences with HTML, CSS, JavaScript, and React.
         </p>
       </div>
 

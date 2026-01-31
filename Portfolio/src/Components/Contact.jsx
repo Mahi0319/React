@@ -14,31 +14,13 @@ function Contact() {
 
       {/* Buttons for GitHub & LinkedIn */}
       <div className="contact-buttons">
-        <a
-          href="https://github.com/Mahi0319"
-          target="_blank"
-          className="contact-btn"
-        >
-          GitHub
-        </a>
+        <a href="https://github.com/Mahi0319"target="_blank"className="contact-btn">GitHub</a>
 
         <a
-          href="https://linkedin.com/in/mahesh-babu-marella-687156387"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="contact-btn"
-        >
+          href="https://linkedin.com/in/mahesh-babu-marella-687156387"target="_blank"rel="noopener noreferrer" className="contact-btn">
           LinkedIn
         </a>
       </div>
-
-      {/* Optional contact form */}
-      <form className="contact-form" action="mailto:maheshmarella2006@gmail.com" method="post" encType="text/plain">
-        <input type="text" name="name" placeholder="Your Name" required /><br/>
-        <input type="email" name="email" placeholder="Your Email" required /><br/>
-        <textarea name="message" placeholder="Your Message" required></textarea><br/>
-        <button type="submit">Send Message</button>
-      </form>
     </section>
   );
 }
