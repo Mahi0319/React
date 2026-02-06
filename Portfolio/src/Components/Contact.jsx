@@ -12,9 +12,10 @@ function Contact() {
         <p><strong>Location:</strong> India</p>
       </div>
 
-      {/* Buttons for GitHub & LinkedIn */}
       <div className="contact-buttons">
-        <a href="https://github.com/Mahi0319"target="_blank"className="contact-btn">GitHub</a>
+        <a 
+        href="https://github.com/Mahi0319"target="_blank"className="contact-btn">GitHub
+        </a>
 
         <a
           href="https://linkedin.com/in/mahesh-babu-marella-687156387"target="_blank"rel="noopener noreferrer" className="contact-btn">

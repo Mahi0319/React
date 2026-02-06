@@ -1,5 +1,4 @@
 import React from "react";
-
 function Projects() {
   return (
     <section id="Projects" className="projects-section">
@@ -56,5 +55,4 @@ function Projects() {
     </section>
   );
 }
-
 export default Projects;

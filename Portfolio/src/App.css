@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .Hero {
   background-color: #3498db;   /* Background color */
   color: white;                /* Text color */
@@ -113,4 +116,37 @@
 .contact-btn:hover {
   background-color: #2980b9;
 }
-
+.cert-section {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.cert-list {
+  max-width: 700px;
+  margin: 2rem auto;
+}
+.cert-item {
+  background: #f8fafc;
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cert-item p {
+  margin: 0;
+  font-weight: 600;
+}
+.cert-item a {
+  padding: 0.5rem 1rem;
+  background: #2563eb;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+.cert-item a:hover {
+  background: #1e40af;
+}
